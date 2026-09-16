@@ -1,0 +1,17 @@
+[
+  {
+    "id": "usr_master_admin",
+    "userId": null,
+    "name": "Alécio Pereira",
+    "email": "aleciopereira08@gmail.com",
+    "role": "admin",
+    "status": "active",
+    "passwordHash": "$2a$10$8K1p/a0dL1LXMIgoEDFrw.a2qZq3iFh6Lh8mH8i74d2q7Fz6Y3t2C",
+    "phone": "+55 11 99999-9999",
+    "notes": "Administrador Mestre do Sistema OrganizaIA",
+    "createdAt": 1725148800000,
+    "updatedAt": 1725148800000,
+    "lastLoginAt": null,
+    "createdBy": "system"
+  }
+]
