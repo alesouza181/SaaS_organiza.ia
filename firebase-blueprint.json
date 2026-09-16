@@ -1,0 +1,55 @@
+{
+  "collections": {
+    "users": {
+      "path": "/users/{userId}",
+      "rules": {
+        "read": "request.auth != null && request.auth.uid == userId",
+        "write": "request.auth != null && request.auth.uid == userId"
+      },
+      "subcollections": {
+        "accounts_payable": {
+          "path": "/users/{userId}/accounts_payable/{docId}",
+          "rules": {
+            "read": "request.auth != null && request.auth.uid == userId",
+            "write": "request.auth != null && request.auth.uid == userId"
+          }
+        },
+        "categories": {
+          "path": "/users/{userId}/categories/{docId}",
+          "rules": {
+            "read": "request.auth != null && request.auth.uid == userId",
+            "write": "request.auth != null && request.auth.uid == userId"
+          }
+        },
+        "incomes": {
+          "path": "/users/{userId}/incomes/{docId}",
+          "rules": {
+            "read": "request.auth != null && request.auth.uid == userId",
+            "write": "request.auth != null && request.auth.uid == userId"
+          }
+        },
+        "preferences": {
+          "path": "/users/{userId}/preferences/{docId}",
+          "rules": {
+            "read": "request.auth != null && request.auth.uid == userId",
+            "write": "request.auth != null && request.auth.uid == userId"
+          }
+        },
+        "profile": {
+          "path": "/users/{userId}/profile/{docId}",
+          "rules": {
+            "read": "request.auth != null && request.auth.uid == userId",
+            "write": "request.auth != null && request.auth.uid == userId"
+          }
+        },
+        "whatsapp_logs": {
+          "path": "/users/{userId}/whatsapp_logs/{docId}",
+          "rules": {
+            "read": "request.auth != null && request.auth.uid == userId",
+            "write": "request.auth != null && request.auth.uid == userId"
+          }
+        }
+      }
+    }
+  }
+}
