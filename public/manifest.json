@@ -1,0 +1,84 @@
+{
+  "id": "/",
+  "name": "OrganizaIA - Gestão Financeira Inteligente",
+  "short_name": "OrganizaIA",
+  "description": "Aplicativo de gestão financeira pessoal inteligente com IA, controle de faturas, fluxo de caixa e alertas.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#0F172A",
+  "theme_color": "#2563EB",
+  "orientation": "any",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["finance", "productivity", "business", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Visão Geral (Dashboard)",
+      "short_name": "Dashboard",
+      "description": "Acesse a visão geral do seu fluxo de caixa",
+      "url": "/?tab=dashboard",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Lançar Despesa / Fatura",
+      "short_name": "Despesas",
+      "description": "Visualize e gerencie suas contas a pagar",
+      "url": "/?tab=transactions",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Recebimentos & Entradas",
+      "short_name": "Entradas",
+      "description": "Controle de fontes de renda e entradas",
+      "url": "/?tab=incomes",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Assistente Gemini IA",
+      "short_name": "Gemini IA",
+      "description": "Consultoria financeira inteligente",
+      "url": "/?tab=ai",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
